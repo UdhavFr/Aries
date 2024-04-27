@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nice.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Libre Baskerville', serif;
+        }
+
+        #carouselExampleIndicators {
+            width: 600px;
+        }
+
+        .wrapper img {
+            margin: 20px;
+            object-fit: cover;
+        }
+
+        .img-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .img-container .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(34, 34, 59, 0.5);
+            opacity: 0;
+            transition: opacity 500ms ease-in-out;
+        }
+
+        .img-container:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay span {
+            text-align: center;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #f2e9e4;
+        }
+        .roundimg{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><i class="fa fa-home">Home</i></a>
+        <a href="gallery.html"><i class="fa fa-image">Gallery</i></a>
+        <a href="register.html"><i class="fa fa-address-card">Register</i></a>
+        <a href="store.html"><i class="fa fa-shopping-cart" aria-hidden="true">Store</i></a>
+    </nav>
+    <div class="container wrapper">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="text-center">
+            <p>All Rights Reserved By Me</p>
+        </div>
+    </footer>
+</body>
+
+</html>

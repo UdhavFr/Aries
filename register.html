@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="nice.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="nice.css">
+  <style>
+        h1{
+            font-family: 'Libre Baskerville', serif;
+        }
+
+        .wrapper{
+          width: 40%;
+          display: block;
+          margin: 0 auto;
+        }
+        .headText{
+          font-family: 'Libre Baskerville', serif;
+        }
+        .contText{
+          font-family: 'Montserrat', sans-serif;
+        }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html"><i class="fa fa-home">Home</i></a>
+    <a href="gallery.html"><i class="fa fa-image">Gallery</i></a>
+    <a href="register.html"><i class="fa fa-address-card">Register</i></a>
+    <a href="store.html"><i class="fa fa-shopping-cart" aria-hidden="true">Store</i></a>
+  </nav>
+  <div class="wrapper">
+    <div class="container mt-3">
+      <h1>Join the Wunderwrld Fandom</h1>
+      <form action="index.html">
+        <div class="mb-3 mt-3">
+          <label for="name">Full Name</label>
+          <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
+        </div>
+        <div class="mb-3">
+          <label for="email">Email ID</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email id" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" maxlength="10" class="form-control" id="mobile" placeholder="Enter your mobile number" name="mobile">
+        </div>
+        <div class="mb-3 mt-3">
+          <p>Have you bought merchendise from use before?</p>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="merch-yes" name="merch-choice" value="yes" checked>
+            <label for="merch-yes">Yes</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="merch-yes" name="merch-choice" value="no">
+            <label for="merch-no">No</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">What's your favorite Aries song?</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>One Punch</option>
+            <option>Sayonara</option>
+            <option>Ditto</option>
+            <option>Carousel</option>
+            <option>Racecar</option>
+          </select>
+        </div>
+        <div class="form-check mt-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> I want to receive promotional mails</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center contText" style="  background-image: url('2b.png');
+  background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+width: 100%;
+height: auto;
+margin-top: 100px;
+">
+      <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(6px) saturate(102%);
+  -webkit-backdrop-filter: blur(6px) saturate(152%);
+  background-color: #22223b66;
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);">
+          <div class="lc-block">
+              <div editable="rich">
+                  <h2 class="fw-bolder display-3 headText">Wunderworld Store</h2>
+              </div>
+          </div>
+          <div class="lc-block col-md-8">
+              <div editable="rich">
+                  <p class="lead">Aries has put out his new clothing range ranging all the way from Hoodies to Tees.<br>Go Buy it NOW!</p>
+              </div>
+          </div>
+          <div class="lc-block">
+              <a class="btn btn-dark headText" href="store.html" role="button">Buy Now</a>
+          </div>
+      </div>
+  </div>
+  <footer>
+    <div class="text-center">
+        <p>All Rights Reserved By Me</p>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
