@@ -1,3 +1,4 @@
+gallery.html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,9 +19,17 @@
             width: 600px;
         }
 
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
         .wrapper img {
-            margin: 20px;
+            width: 400px;
+            height: 400px;
             object-fit: cover;
+            margin: 40px;
         }
 
         .img-container {
@@ -64,33 +73,60 @@
         <a href="register.html"><i class="fa fa-address-card">Register</i></a>
         <a href="store.html"><i class="fa fa-shopping-cart" aria-hidden="true">Store</i></a>
     </nav>
-    <div class="container wrapper">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+    <div class="wrapper">
+        <div class="img-container">
+            <img class="roundimg" src="gallery/Aries-png.jpg" alt="">
+            <div class="overlay">
+                <span>Don't wake me up</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="2.jpg" alt="">
+            <div class="overlay">
+                <span>I'm way too deep</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="gallery/Aries_-_SAYONARA.webp" alt="">
+            <div class="overlay">
+                <span>Way too deep</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="gallery/download.jpg" alt="">
+            <div class="overlay">
+                <span>Way to deep</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="3.jpg" alt="">
+            <div class="overlay">
+                <span>Won't come down for a little while longer</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="gallery/images.jpg" alt="">
+            <div class="overlay">
+                <span>How come all these calls going to the same number?</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img src="gallery/unnamed.jpg" alt="">
+            <div class="overlay">
+                <span>Might cash out 'fore I touch down</span>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="img-fluid" src="gallery/Aries-png.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="1.jpg" alt="">
+            <div class="overlay">
+                <span>Know that all I can reach is prolly</span>
             </div>
-
+        </div>
+        <div class="img-container">
+            <img class="roundimg" src="4.jpg" alt="">
+            <div class="overlay">
+                <span>Way too deep</span>
+            </div>
         </div>
     </div>
     <footer>
